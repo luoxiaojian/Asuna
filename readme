@@ -1,0 +1,9 @@
+(1) Install eigen
+sudo ./eigen.sh <path-to-tensorflow> /usr/local
+(2) Build
+cmake . && make
+(3) Download data
+curl -L "https://storage.googleapis.com/download.tensorflow.org/models/inception_v3_2016_08_28_frozen.pb.tar.gz" | tar -C ./data -xz
+(3) Run
+./Asuna
+
